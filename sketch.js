@@ -83,13 +83,14 @@ function drawImage() {
 
 function drawUI() {
   push();
-  textAlign(LEFT);
-  textSize(18);
+  textAlign(CENTER);
+  textSize(20);
 
   for( let i = 0; i < transitions.length; i++ ) {
-    fill(255);
+    fill('black');
 
     if( selectedTransitionNum === i ) {
+      textStyle(BOLDITALIC);
       fill(240,50,0);
     }
     text( transitions[i], 100, (height - 100) + (i*30)  );
