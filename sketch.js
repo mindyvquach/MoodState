@@ -17,7 +17,7 @@ function preload() {
 
 // Setup code goes here
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(1000, 1000);
   imageMode(CENTER);
 
   // setup the state machine with callbacks
@@ -72,7 +72,7 @@ function keyPressed() {
 //==== MODIFY THIS CODE FOR UI =====/
 
 function drawBackground() {
-  background(0);
+  background('#F5F5DC');
 }
 
 function drawImage() {

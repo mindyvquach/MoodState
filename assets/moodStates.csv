@@ -1,15 +1,11 @@
 StateName,PNGFilename,TransitionText,NewState
-Relaxed,assets/relaxed.png,See a cute cat,Excited
-Relaxed,assets/relaxed.png,My roommates didn’t wash the dishes so I can't eat,Frustrated
-Angry,assets/angry.png,"Realize the person I was angry at does not care
-",Sad
-Angry,assets/angry.png,I do some breathing exercises,Relaxed
-Sad,assets/sad.png,i can't figure out why I'm crying,Frustrated
-Sad,assets/sad.png,"i have cried out all my tears
-",Relaxed
-Excited,assets/excited.png,"This assignment is not as easy as I thought it was
-",Frustrated
-Excited,assets/excited.png,"someone likes my best friend but the person i like
-",Angry
-Frustrated,assets/frustrated.png,I can't figure out a problem,Angry
-Frustrated,assets/frustrated.png,I figure out a solution,Excited
+Happy,assets/happy.png,Cooks good food,Loved
+Happy,assets/happy.png,Sees a dog,Surprised
+Loved,assets/loved.png, Drops good food on the floor,Anger
+Loved,assets/loved.png,Complete everything I need to do for the day,Happy
+Surprised,assets/surprised.png, Pets dog,Loved
+Surprised,assets/surprised.png,Realizing it's 5am and I havent slept,Sleepy
+Sleepy,assets/sleepy.png,Boyfriend made me coffee,Surprised
+Sleepy,assets/sleepy.png,Took a nap,Happy
+Anger,assets/anger.png,realizing how much food I wasted,Surprised
+Anger,assets/frustrated.png,Woke up with no coffee,Sleepy
