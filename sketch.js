@@ -1,6 +1,6 @@
 /*******************************************************************************************************************
     Mood State Machine 
-    by Scott Kildall
+    by Mindy Quach
 
    This project uses P5js and state machines. Our task was to edit a csv document and 
    modify the UI features of our website. 
@@ -92,7 +92,7 @@ function drawUI() {
       textStyle(BOLDITALIC);
       fill('blue');
     }
-    text( transitions[i], (width/2 - 180) + (i*300), (height/2 + 200), 120);
+    text(transitions[i], (width/2 - 180) + (i*300), (height/2 + 200), 120);
   }
 
   pop();
