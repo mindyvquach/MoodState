@@ -1,9 +1,9 @@
 /*******************************************************************************************************************
-    Moods Example
+    Mood State Machine 
     by Scott Kildall
 
-    Uses the p5.SimpleStateMachine library. Check the README.md + source code documentation
-    The index.html needs to include the line:  <script src="p5.simpleStateManager.js"></script>
+   This project uses P5js and state machines. Our task was to edit a csv document and 
+   modify the UI features of our website. 
 *********************************************************************************************************************/
 
 var simpleStateMachine;           // the SimpleStateManager class
@@ -17,7 +17,7 @@ function preload() {
 
 // Setup code goes here
 function setup() {
-  createCanvas(1000, 1000);
+  createCanvas(1300, 900);
   imageMode(CENTER);
 
   // setup the state machine with callbacks
@@ -69,15 +69,13 @@ function keyPressed() {
   }
 }
 
-//==== MODIFY THIS CODE FOR UI =====/
-
 function drawBackground() {
-  background('#F5F5DC');
+  background('#FAF9F6');
 }
 
 function drawImage() {
   if( moodImage !== undefined ) {
-    image(moodImage, width/2, height/2);
+    image(moodImage, width/2, height/2 - 30);
   }  
 }
 
@@ -88,12 +86,13 @@ function drawUI() {
 
   for( let i = 0; i < transitions.length; i++ ) {
     fill('black');
+    textStyle(NORMAL);
 
     if( selectedTransitionNum === i ) {
       textStyle(BOLDITALIC);
-      fill(240,50,0);
+      fill('blue');
     }
-    text( transitions[i], 100, (height - 100) + (i*30)  );
+    text( transitions[i], (width/2 - 180) + (i*300), (height/2 + 200), 120);
   }
 
   pop();

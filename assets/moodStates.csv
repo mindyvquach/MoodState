@@ -1,11 +1,17 @@
 StateName,PNGFilename,TransitionText,NewState
-Happy,assets/happy.png,Cooks good food,Loved
-Happy,assets/happy.png,Sees a dog,Surprised
+Happy,assets/happy.png, Cooks good food,Loved
+Happy,assets/happy.png, Sees a dog,Surprised
 Loved,assets/loved.png, Drops good food on the floor,Anger
-Loved,assets/loved.png,Complete everything I need to do for the day,Happy
-Surprised,assets/surprised.png, Pets dog,Loved
-Surprised,assets/surprised.png,Realizing it's 5am and I havent slept,Sleepy
-Sleepy,assets/sleepy.png,Boyfriend made me coffee,Surprised
-Sleepy,assets/sleepy.png,Took a nap,Happy
-Anger,assets/anger.png,realizing how much food I wasted,Surprised
-Anger,assets/frustrated.png,Woke up with no coffee,Sleepy
+Loved,assets/loved.png, Didn't complete my work for the Night,Stressed
+Surprised,assets/surprised.png, Friends planned a surprise party,Shy
+Surprised,assets/surprised.png,Wondering how I spent $2000 on my credit card,Confused
+Tired,assets/tired.png, Boyfriend made me coffee,Loved
+Tired,assets/tired.png, realizing its 5am,Surprised
+Anger,assets/anger.png, Yelled at my friend,Shy
+Anger,assets/anger.png, Drank some coffee ,Happy
+Confused,assets/confused.png, Can't get my code to work ,Stressed
+Confused,assets/confused.png, Walked around for hours,Tired
+Stressed,assets/stressed.png, Got help from my CS friends ,Happy
+Stressed,assets/stressed.png, Didn't get any help on my homework,Anger
+Shy,assets/shy.png, Didn't ask for directions ,Confused
+Shy,assets/shy.png, Found my friends in a crowd of people ,Happy
