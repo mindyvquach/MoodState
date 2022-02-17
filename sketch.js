@@ -70,10 +70,14 @@ function keyPressed() {
 }
 
 function drawBackground() {
-  background('#FAF9F6');
+  background('#F2E3BC');
 }
 
 function drawImage() {
+  fill('#ED6A5A');
+  noStroke();
+  rect(400,150,500,500,20);
+
   if( moodImage !== undefined ) {
     image(moodImage, width/2, height/2 - 30);
   }  
@@ -85,14 +89,15 @@ function drawUI() {
   textSize(20);
 
   for( let i = 0; i < transitions.length; i++ ) {
-    fill('black');
+    fill('#412722');
     textStyle(NORMAL);
 
     if( selectedTransitionNum === i ) {
       textStyle(BOLDITALIC);
-      fill('blue');
+      fill('#E08DAC');
     }
-    text(transitions[i], (width/2 - 180) + (i*300), (height/2 + 200), 120);
+    text(transitions[i], (width/2 - 300) + (i*450), (height/2 + 300), 220);
+    
   }
 
   pop();
